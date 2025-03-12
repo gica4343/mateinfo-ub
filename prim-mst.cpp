@@ -44,4 +44,5 @@ int minCostConnectPoints(vector<vector<int>>& points) {
 int main() {
     vector<vector<int>> points = {{3, 12}, {-2, 5}, {-4, 1}};
     int res = minCostConnectPoints(points);
+    cout << res;
 }
